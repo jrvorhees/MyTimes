@@ -11,30 +11,28 @@ header {
   background-color: white;
   border-bottom: 1px solid black;
 }
-img.logo {
+header img {
     width: 70px;
     height: 60px;
-    margin-right: 12px;
+    padding-right: 12px;
 }
-span.logo {
+.logo span {
   color: MediumAquamarine;
 }
 .logo{
   display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 .navigation{
   display: flex;
   justify-content: flex-end;
   padding-right: 40px;
-  align-items: flex-end;
   flex-wrap: wrap;
-}
-a {
-    color: black;
 }
 nav span {
   display: inline-block;
   padding: 20px 10px;
   text-decoration: underline;
-
+  color: black;
 }
