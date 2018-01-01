@@ -11,28 +11,60 @@ header {
   background-color: white;
   border-bottom: 1px solid black;
 }
+
 header img {
     width: 70px;
     height: 60px;
     padding-right: 12px;
 }
-.logo span {
-  color: MediumAquamarine;
-}
+
 .logo{
   display: flex;
   align-items: center;
   flex-grow: 1;
+  color: MediumAquamarine;
 }
+
 .navigation{
   display: flex;
   justify-content: flex-end;
   padding-right: 40px;
   flex-wrap: wrap;
 }
+
 nav span {
   display: inline-block;
   padding: 20px 10px;
   text-decoration: underline;
   color: black;
+}
+
+/* Ends header CSS */
+
+div {
+  border: 1px solid black;
+}
+
+.main-content {
+  display: flex;
+  position: relative;
+  top: 80px;
+}
+
+.column {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  padding-right: 20px;
+}
+
+.column.medium {
+ width: 300px;
+ padding-right: 20px;
+}
+
+.column.small {
+ width: 240px;
 }
