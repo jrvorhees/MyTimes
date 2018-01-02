@@ -53,18 +53,22 @@ div {
 
 .column {
   display: flex;
+  flex-shrink: 0;
 }
 
 .column.large {
+  flex-direction: column;
   width: 630px;
   padding-right: 20px;
 }
 
 .column.medium {
+ flex-direction: column;
  width: 300px;
  padding-right: 20px;
 }
 
 .column.small {
+ flex-direction: column;
  width: 240px;
 }
